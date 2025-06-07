@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\Documents\\Faculdade\\test-backend-fila\\test-backend-fila.csproj": {}
+    "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\test-backend-fila\\test-backend-fila.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\Documents\\Faculdade\\backend-fila\\backend-fila.csproj": {
+    "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\backend-fila\\backend-fila.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\Documents\\Faculdade\\backend-fila\\backend-fila.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\backend-fila\\backend-fila.csproj",
         "projectName": "backend-fila",
-        "projectPath": "C:\\Users\\felip\\Documents\\Faculdade\\backend-fila\\backend-fila.csproj",
+        "projectPath": "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\backend-fila\\backend-fila.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\Documents\\Faculdade\\backend-fila\\obj\\",
+        "outputPath": "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\backend-fila\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,14 +105,14 @@
         }
       }
     },
-    "C:\\Users\\felip\\Documents\\Faculdade\\test-backend-fila\\test-backend-fila.csproj": {
+    "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\test-backend-fila\\test-backend-fila.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\Documents\\Faculdade\\test-backend-fila\\test-backend-fila.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\test-backend-fila\\test-backend-fila.csproj",
         "projectName": "test-backend-fila",
-        "projectPath": "C:\\Users\\felip\\Documents\\Faculdade\\test-backend-fila\\test-backend-fila.csproj",
+        "projectPath": "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\test-backend-fila\\test-backend-fila.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\Documents\\Faculdade\\test-backend-fila\\obj\\",
+        "outputPath": "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\test-backend-fila\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -134,8 +134,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\felip\\Documents\\Faculdade\\backend-fila\\backend-fila.csproj": {
-                "projectPath": "C:\\Users\\felip\\Documents\\Faculdade\\backend-fila\\backend-fila.csproj"
+              "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\backend-fila\\backend-fila.csproj": {
+                "projectPath": "C:\\Users\\felip\\Documents\\Faculdade\\5semestre-tec-emergentes\\backend-fila\\backend-fila.csproj"
               }
             }
           }
