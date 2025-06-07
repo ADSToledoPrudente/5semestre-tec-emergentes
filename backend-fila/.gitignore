@@ -1,0 +1,101 @@
+## Build Results
+bin/
+obj/
+out/
+/bin
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## VS Code
+.vscode/
+.history/
+
+## Rider
+.idea/
+*.sln.iml
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## StyleCop
+StyleCopReport.xml
+
+## Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlh
+*.tli
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+*.Backup
+*.cache
+*.config
+*.db
+*.DS_Store
+
+## dotCover
+.idea/.dotCover
+
+## Visual Studio
+.vs/
+# Uncomment if you have tasks that create the TestResults folder
+# TestResults/
+TestResults/
+*.TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Local .NET Core tools
+.tools/
+
+## User secrets
+secrets.json
+**/secrets.json
+*.usersecrets/
+
+## dotenv (env files)
+*.env
+*.env.*
+
+## Docker
+**/Dockerfile
+**/docker-compose*.yml
+**/docker-compose.override.yml
+**/.docker/
+
+## Logs
+*.log
+logs/

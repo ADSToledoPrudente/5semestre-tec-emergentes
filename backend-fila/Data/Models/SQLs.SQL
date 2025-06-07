@@ -1,0 +1,24 @@
+CREATE TABLE `User` (
+    `Id` INT NOT NULL AUTO_INCREMENT,
+    `Email` VARCHAR(255) NOT NULL,
+    `Password` VARCHAR(255) NOT NULL,
+    PRIMARY KEY (`Id`)
+);
+
+CREATE TABLE `Queue` (
+    `Id` INT NOT NULL AUTO_INCREMENT,
+    `Name` VARCHAR(255) NOT NULL,
+    `Active` BOOLEAN NOT NULL,
+    PRIMARY KEY (`Id`)
+);
+
+CREATE TABLE `Customer` (
+    `Id` INT NOT NULL AUTO_INCREMENT,
+    `Name` VARCHAR(255) NOT NULL,
+    `Priority` BOOLEAN NOT NULL,
+    `Date` DATETIME NOT NULL,
+    `Active` BOOLEAN NOT NULL,
+    `QueueId` INT NOT NULL,
+    PRIMARY KEY (`Id`),
+    FOREIGN KEY (`QueueId`) REFERENCES `Queue`(`Id`)
+);
