@@ -1,0 +1,34 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  position: relative;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 2rem 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  background: #e0f0ff;
+}
+
+.card-id {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.card-nome {
+  font-size: 1.1rem;
+  font-weight: 500;
+}

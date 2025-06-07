@@ -1,0 +1,6 @@
+<div *ngIf="!logado">
+  <app-login></app-login>
+</div>
+<div *ngIf="logado">
+  <router-outlet></router-outlet>
+</div>

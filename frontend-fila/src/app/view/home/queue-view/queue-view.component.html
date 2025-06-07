@@ -1,0 +1,42 @@
+<div class="container">
+  <button class="voltar" (click)="voltar()">← Voltar</button>
+
+  <h2>Fila #{{ queueId }} - {{queue.name}}</h2>
+
+  <div class="usuario" *ngFor="let customer of customers; let i = index">
+    <div class="info">
+      <span class="index">{{ i + 1 }}.</span>
+      <span class="nome">{{ customer.name }}</span>
+      <span class="prioridade" *ngIf="customer.priority" title="Usuário prioritário">⚡</span>
+    </div>
+
+    <div class="acoes">
+      <button (click)="finalizar(customer.id)">Finalizar</button>
+      <button class="cancelar" (click)="cancelar(customer.id)">Cancelar</button>
+    </div>
+  </div>
+
+  <button (click)="abrirModal()">+ Adicionar Usuário</button>
+
+  <div class="modal-backdrop" *ngIf="modalAberto">
+    <div class="modal">
+      <h2>Adicionar Usuário</h2>
+
+      <form [formGroup]="formUsuario" (ngSubmit)="addUserToQueue()">
+        <label for="nome">Nome:</label>
+        <input id="nome" formControlName="name" required />
+
+        <label>
+          <input type="checkbox" formControlName="priority" />
+          Prioridade
+        </label>
+
+        <div class="modal-actions">
+          <button type="submit" [disabled]="formUsuario.invalid">Adicionar</button>
+          <button type="button" class="cancelar" (click)="fecharModal()">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+

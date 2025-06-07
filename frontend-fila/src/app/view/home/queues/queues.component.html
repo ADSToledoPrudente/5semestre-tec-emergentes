@@ -1,0 +1,24 @@
+<div class="grid-container">
+  <div class="card" *ngFor="let queue of queues" (click)="abrirFila(queue.id)">
+    <div class="card-id">#{{ queue.id }}</div>
+    <div class="card-nome">{{ queue.name }}</div>
+  </div>
+</div>
+
+<button (click)="abrirModal()">+ Nova Fila</button>
+
+<div class="modal-backdrop" *ngIf="modalAberto">
+  <div class="modal">
+    <h2>Criar Nova Fila</h2>
+
+    <form [formGroup]="formFila" (ngSubmit)="criarFila()">
+      <label for="nome">Nome da Fila:</label>
+      <input id="nome" formControlName="name" required />
+
+      <div class="modal-actions">
+        <button type="submit" [disabled]="formFila.invalid">Criar</button>
+        <button type="button" class="cancelar" (click)="fecharModal()">Cancelar</button>
+      </div>
+    </form>
+  </div>
+</div>
